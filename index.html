@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Snake</title>
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<div id="matrix"></div>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.2.1/lodash.js"></script>
+		<script id="field-template" type="template/loDash">
+			<% for( var i = 0; i < rows; i++) { %>
+			<tr>
+				<% for( var j = 0; j < cells; j++) { %>
+					<td class="table-field__item"> </td>
+				<% }; %>
+			</tr>
+			<% }; %>
+		<span class="table-info"></span>
+		</script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

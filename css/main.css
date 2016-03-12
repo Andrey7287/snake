@@ -1,0 +1,32 @@
+.table-field {
+  border-collapse: collapse;
+  margin: 0 auto;
+  position: relative;
+}
+
+.table-field__item {
+  border: 1px solid #000;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.table-field__item--active {
+  background-color: blue;
+}
+
+.table-field__item--target {
+  background-color: red;
+}
+
+.table-field__item--wall {
+  background-color: black;
+}
+
+.table-info {
+  position: absolute;
+  top: 10px;
+  left: -100px;
+  color: indigo;
+  font: 500 24px Helvetica, Arial, sans-serif;
+}
